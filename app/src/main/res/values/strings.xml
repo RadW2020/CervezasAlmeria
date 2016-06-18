@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cervezas Almeria</string>
+    <string name="find_beer">Buscar</string>
+
+    <string-array name="marcas" >
+        <item>Far West (Níjar)</item>
+        <item>Alborán (Cabo de Gata)</item>
+        <item>El Cabo (Viator)</item>
+        <item>La Cala (Laujar)</item>
+        <item>Origen 1905 (Huércal de Almería)</item>
+        <item>Filabres (Velefique)</item>
+        <item>Glamour y Torolé (Mojácar)</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.radw.cervezasalmeria.MainActivity">
+
+    <!-- spinnner marca -->
+    <Spinner
+        android:id="@+id/marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:entries="@array/marcas"/>
+
+
+
+    <!-- Boton buscar -->
+    <Button
+        android:id="@+id/find_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/marca"
+        android:layout_below="@+id/marca"
+        android:layout_marginTop="10dp"
+        android:text="@string/find_beer"
+
+        android:onClick="onClickFindBeer" />
+
+    <!-- texto buscado -->
+    <TextView
+        android:id="@+id/marcas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/find_beer"
+        android:layout_below="@+id/find_beer"
+        android:layout_marginTop="15dp"
+        android:text="marcas" />
+
+</RelativeLayout>
