@@ -16,11 +16,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    //call when the user clicks on the button
+    // call when the user clicks on the button
     public void onClickFindBeer (View view){
         // get a reference to the TextView
         TextView marcas = (TextView) findViewById(R.id.marcas);
-        //Get a reference to the spinner
+        // Get a reference to the spinner
         Spinner marcaSpin = (Spinner) findViewById(R.id.marca);
         //get the selected item in the spinner
         String marca = String.valueOf(marcaSpin.getSelectedItem());
