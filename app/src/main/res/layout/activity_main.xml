@@ -19,8 +19,6 @@
         android:layout_marginTop="37dp"
         android:entries="@array/marcas"/>
 
-
-
     <!-- Boton buscar -->
     <Button
         android:id="@+id/find_beer"

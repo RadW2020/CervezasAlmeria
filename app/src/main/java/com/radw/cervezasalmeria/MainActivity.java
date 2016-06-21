@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         //get the selected item in the spinner
         String marca = String.valueOf(marcaSpin.getSelectedItem());
 
-        //Choose from beerExpert
+        // Choose from beerExpert
         List<String> listaSelecc = (selecc.getBrands(marca));
         // create string for the information text view
         StringBuilder resultSelecc = new StringBuilder();
